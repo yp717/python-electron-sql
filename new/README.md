@@ -53,3 +53,5 @@ Todo:
 - add static table of data to the weather page with 2 columns
 - show data from sql db in this table
 - should update on page refresh
+- add tabulator docs
+- connect tabulator table with bootstrap

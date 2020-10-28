@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.1",
-    "python-shell": "^1.0.7"
+    "python-shell": "^1.0.7",
+    "tabulator-tables": "^4.8.3"
   }
 }

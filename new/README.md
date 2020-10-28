@@ -49,9 +49,8 @@ npm start
 useful link to docs for SQLAlchemy in Flask:
 https://flask.palletsprojects.com/en/1.1.x/patterns/sqlalchemy/
 
-Todo:
-- add static table of data to the weather page with 2 columns
-- show data from sql db in this table
-- should update on page refresh
-- add tabulator docs
-- connect tabulator table with bootstrap
+Other useful links:
+https://www.w3schools.com/js/js_json_html.asp
+https://ourcodeworld.com/articles/read/202/how-to-include-and-use-jquery-in-electron-framework
+https://getbootstrap.com/docs/4.0/content/tables/
+https://flask.palletsprojects.com/en/1.1.x/patterns/sqlalchemy/

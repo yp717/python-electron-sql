@@ -19,7 +19,7 @@
           <button class="btn btn-success" onclick="get_weather()">Go!</button>
       </div>
       <div class="col-xs-12">
-        <table class="table table-striped table-hover">
+        <table id="weather-table" class="table table-striped table-hover">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -40,6 +40,10 @@
             </tr>
           </table>
           </tbody>
+      </div>
+
+      <div class="col-xs-12">
+        <button class="btn btn-info" style="color:white" onclick="list_weather();">Update Table</button>
       </div>
     </div>
   </div>

@@ -29,7 +29,10 @@ function list_weather(){
   // update the table with weather data
   let pyshell = new PythonShell('list_weather.py', options);
   pyshell.on('message', function(message) {
+    document.getElementById('weather-table').simple_datagrid(
+    {
+      data: message
+    });
     console.log(message);
   })
 }
-list_weather()

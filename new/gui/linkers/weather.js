@@ -13,7 +13,6 @@ function get_weather() {
 
   let pyshell = new PythonShell('weather_engine.py', options);
 
-
   pyshell.on('message', function(message) {
     // the swal bit makes it come up as a popup
     swal(message);

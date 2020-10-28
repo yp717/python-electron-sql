@@ -45,3 +45,11 @@ Once everything is working you should be able to run the project with (from the 
 ```sh
 npm start
 ```
+
+useful link to docs for SQLAlchemy in Flask:
+https://flask.palletsprojects.com/en/1.1.x/patterns/sqlalchemy/
+
+Todo:
+- add static table of data to the weather page with 2 columns
+- show data from sql db in this table
+- should update on page refresh

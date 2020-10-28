@@ -15,6 +15,7 @@ function get_weather() {
 
 
   pyshell.on('message', function(message) {
+    // the swal bit makes it come up as a popup
     swal(message);
   })
   document.getElementById("city").value = "";
@@ -26,9 +27,10 @@ function list_weather(){
     args : []
   }
 
+  // update the table with weather data
   let pyshell = new PythonShell('list_weather.py', options);
   pyshell.on('message', function(message) {
-    swal(message);
+    console.log(message);
   })
 }
 list_weather()

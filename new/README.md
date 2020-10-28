@@ -27,8 +27,21 @@ Clone the repository (with git clone like we practiced)
   npm start
 ```
 
+## Activate virtualenv - from the gui folder
 
-#activate virtualenv 
-
+```sh
 pipenv shell
-(from the gui folder)
+
+# Trouble shooting - may have to do these
+pip install pipenv
+
+pipenv install requests
+pip install lxml
+pip install sqlalchemy
+```
+
+Once everything is working you should be able to run the project with (from the gui folder)
+
+```sh
+npm start
+```

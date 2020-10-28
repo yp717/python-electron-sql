@@ -1,6 +1,6 @@
-let {PythonShell} = require('python-shell')
-var path = require("path")
-
+let {PythonShell} = require('python-shell');
+var path = require("path");
+window.$ = window.jQuery = require("jquery");
 
 function get_weather() {
 
@@ -29,10 +29,11 @@ function list_weather(){
   // update the table with weather data
   let pyshell = new PythonShell('list_weather.py', options);
   pyshell.on('message', function(message) {
-    document.getElementById('weather-table').simple_datagrid(
+    $('#weather-table').simple_datagrid(
     {
       data: message
     });
     console.log(message);
   })
 }
+
